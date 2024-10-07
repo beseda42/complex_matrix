@@ -25,7 +25,7 @@ public class Complex {
     public void setReal (double real){this.real = real;}
     public void setImg (double img){this.img = img;}
     public double getReal() {return this.real;};
-    public double getImg (double img){return this.img;}
+    public double getImg (){return this.img;}
 
     //метод сложения complex + complex
     public Complex add(Complex n) {
